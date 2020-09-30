@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #eeecec !important;
+    min-height: 100%;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(200, 204, 209);
+    text-align: center;
+  }
+
+.item {
+    width: 250px;
+    height: 345px;
+    display: inline-block;
+    border: 1px solid #cac3c3;
+    padding: 0 10px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+
+.item img {
+    width: 230px;
+    height: 230px;
+}
+
+h5,
+h6 {
+    display: inline-block;
+}
+
+h5 {
+    color: rgb(70, 95, 87);
+}
+
+h6 {
+    color: rgb(68, 65, 62);
+    margin-left: 20px;
+}
+
+.quantityPicker,
+.btn-add {
+    display: inline-block;
+}
+
+.btn-add {
+    margin-left: 40px;
+}
+
+.quantity-value {
+    width: 20px;
+}
+
+.btn-add {
+    margin-left: 80px;
+}  
+
+.price-title{
+    color: gray;
+}
+

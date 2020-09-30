@@ -1,0 +1,44 @@
+.categories {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.category {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #a78787;
+    border-radius: 6px;
+}
+
+.category h6{
+    word-wrap: break-word;
+    font-weight: bold;
+    color: teal;
+}
+
+.category:hover {
+    border: 1px solid #573535;
+    cursor: pointer;
+}
+
+.section {
+    margin-left: 40px;
+    color: #a78787;
+}
+
+.products {
+    text-align: center;
+}
+
+.active-cat{
+    border: 1px solid rgb(218, 113, 44);
+}
+
+.active-cat h6 {
+    color: #333;
+}

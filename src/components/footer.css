@@ -1,0 +1,23 @@
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: rgb(218, 228, 228);
+    display: flex;
+    padding-top: 3em;
+    width: 100%;
+    min-height: 10vh;
+    margin-top: -180px;
+    flex-direction: column;
+
+
+    
+}
+
+.main-footer h6{
+    text-align: center;
+}
+
